@@ -5,36 +5,15 @@
 @import "core/template.less";
 @import "core/typo.less";
 // Here we go :)
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
-nav {
-  & ul {
-    list-style: none;
-    display: flex;
-    padding: 0 10rem 0 10rem;
-    background-color: #d4d6d6;
-    position: relative;
-    & li {
-      transition: all 1s ease-in-out;
-      padding: 2rem;
-      display: flex;
-      flex: 1 1 auto;
-      border-left: solid #585a5a 2px;
-      transform: skew(-15deg);
-      }
 
-      & :last-child{
-        border-right: solid #585a5a 2px;
-      }
-      & a{
-        border: none!important;
-        color: #616363;
-        text-decoration: none;
-        transform: skew(15deg);
-      }
-    }
-  }
-li:hover{
-  background-color: red;
-
+.test_bg_1{
+  background: url("/img/parallax_03.jpg")50% 0 fixed no-repeat;
+  margin: 0 auto;
+  height: 100vh;
+}
+.test_bg_2{
+  background: url("/img/parallax_02.jpg")50% 0 fixed no-repeat;
+  margin: 0 auto;
+  height: 100vh;
 }
